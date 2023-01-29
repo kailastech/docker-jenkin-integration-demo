@@ -9,6 +9,7 @@ public class UserController {
 	@GetMapping("home")
 	public void home() {
 		System.out.println("Welcome to Java Technology...!");
+		System.out.println("This is a User Controller class");
 	}
 	
 }
